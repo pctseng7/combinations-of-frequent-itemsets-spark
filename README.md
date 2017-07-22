@@ -60,4 +60,4 @@ Case2 support 3000
 
 ## License
 
-This project is licensed under the course project of INF553 at USC 
+This repository is credited to the course project of INF553 at USC 
