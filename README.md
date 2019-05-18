@@ -4,7 +4,7 @@ Implementation of SON-Apriori Algorithm on MovieLens Ratings datasets to find co
 
 ## Getting Started
 
-Dealing with big datasets via Spark can largely reduce processing time and get the insight in a short time. Follow the instructions will get you familiar with how to apply data-mining algorithm for large datasets. The open source datasets can be reached in the [MovieLens | GroupLens](https://grouplens.org/datasets/movielens/). In this repository, I use the MovieLens 20M Dataset and MovieLens Latest Datasets for implementation. The goal is to find combination of the frequent itemsets. Small dataset can be used as testing dataset for the first try. 
+Dealing with big datasets via Spark can largely reduce processing time and get the insight in a short time. Follow the instructions will get you familiar with how to apply data-mining algorithm for large datasets. The open source datasets can be reached in the [MovieLens | GroupLens](https://grouplens.org/datasets/movielens/). In this repository, use the MovieLens 20M Dataset and MovieLens Latest Datasets for implementation. The goal is to find combination of the frequent itemsets. Small dataset can be used as testing dataset for the first try. 
 
 ## Data Mining
 
@@ -58,6 +58,6 @@ Case2 support 3000
 
 ./bin/spark-submit --master local[*] Po-Chuan_Tseng.SON.py 2 ml-20m/ratings.csv 3000
 
-## License
+## Credits
 
 This repository is credited to the course project of INF553 at USC 
